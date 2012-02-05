@@ -8,7 +8,7 @@ No npm-like utility yet :(
 
     git clone https://github.com/mgutz/luv.git
 
-    # cp the luv script to your path
+    # cp the luv script to your pathk
     cp luv/bin/luv ~/bin
 
 
@@ -22,7 +22,7 @@ local desc = ""
 -- Specify task depencencies in 3rd argument.
 task("build", "Builds the project.", {"clean"}, function()
   print("build your project here")
-end).dependencies({"clean"})
+end)
 
 -- All tasks must have `name`, `description` and `action`.
 task("clean", "Cleans the project.", function()
