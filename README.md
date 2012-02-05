@@ -9,7 +9,7 @@ No npm-like utility yet :(
     git clone https://github.com/mgutz/luv.git
 
     # symlink the script
-    ln -sf luv/bin/luv ~/bin
+    ln -sf `pwd`/luv/bin/luv ~/bin
 
 
 ## Usage
