@@ -41,7 +41,7 @@ Run a task
 Specify task options.
 
 ```lua
--- Encode tasks in the description and `lapp` style
+-- Encode task options in the description `lapp` style
 local desc = [[
 Creates distribution
   -a,--archive-name (string)  Archive name.
