@@ -17,8 +17,6 @@ No npm-like utility yet :(
 Create a `Luvfile.lua` in your project's root directory.
 
 ```lua
-local desc = ""
-
 -- Specify task depencencies in 3rd argument.
 task("build", "Builds the project.", {"clean"}, function()
   print("build your project here")
