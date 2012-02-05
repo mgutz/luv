@@ -1,0 +1,4 @@
+#!/usr/bin/env luvit
+
+luv = require("../index")
+luv.run()
