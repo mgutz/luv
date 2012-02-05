@@ -8,8 +8,8 @@ No npm-like utility yet :(
 
     git clone https://github.com/mgutz/luv.git
 
-    # cp the luv script to your pathk
-    cp luv/bin/luv ~/bin
+    # symlink the script
+    ln -sf luv/bin/luv ~/bin
 
 
 ## Usage
